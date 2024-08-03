@@ -1,3 +1,50 @@
+To add the descriptions of your `Home.jsx`, `Login.jsx`, `EmailReply.jsx`, and `Header.jsx` components to your GitHub README file, you can structure it in a clear and organized way. Here’s a sample README section that includes details about each component:
+
+---
+
+## Project Overview
+
+This project is a web application with a focus on user authentication and email management. Below is a brief overview of the key components and their functionalities.
+
+### `Home.jsx`
+
+The `Home.jsx` file structures the main home page of the application. It integrates various UI components and manages their layout and state.
+
+- **Imports and State Management:** Imports components like `Header`, `Navbar`, `Inbox`, `Message`, and `LeadDetails`. Uses `useState` to control the visibility of the inbox modal.
+- **Page Layout:** Utilizes a `div` with `relative` class for proper positioning. Uses flexbox for aligning `Navbar`, `Inbox`, `Message`, and `LeadDetails` components.
+- **Component Functionality:** Configures `Navbar` to manage `inboxModal` state, influencing the display of `Inbox` and `Message` components.
+
+### `Login.jsx`
+
+The `Login.jsx` file handles user authentication, focusing on Google Sign-In with a clean and responsive interface.
+
+- **State and Navigation:** Manages login/signup modes using `useState` and handles routing with `useNavigate`.
+- **Google Authentication:** On load, checks for a token in URL parameters, stores it in localStorage, and redirects the user if necessary.
+- **UI Design:** Features a minimalist black-themed design with a centered login/signup form, gradient backgrounds, and responsive styling.
+
+### `EmailReply.jsx`
+
+The `EmailReply.jsx` component allows users to compose and send email replies within the application.
+
+- **State Management:** Uses `useState` to handle input fields for "To", "From", "Subject", and the message body.
+- **UI Structure:** Renders a modal with fields for composing emails and includes buttons for sending, adding variables, and previewing.
+- **Styling:** Styled with Tailwind CSS to match the dark theme, using classes like `bg-[#141517]` and `text-white`.
+
+### `Header.jsx`
+
+The `Header.jsx` component manages the application's header, including theme toggling and workspace display.
+
+- **Theme Management:** Manages light/dark theme state with `useState` and `useEffect`. Applies theme changes and persists them in localStorage.
+- **UI Layout:** Displays the application’s name and workspace information. Integrates a `ThemeToggle` component for switching themes.
+- **Styling:** Features a dark background (`bg-[#1F1F1F]`), border, and inset shadow for a sleek appearance.
+
+---
+
+Feel free to adjust the content to better fit your project's specifics or to add any additional sections as needed.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
