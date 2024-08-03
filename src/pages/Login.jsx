@@ -73,7 +73,7 @@ const Login = () => {
         </div>
       </div>
       <footer className="w-full border-[#25262B] border-t bg-[#121212] grid place-items-center text-[#5C5F66] text-xs py-3">
-        © 2023 Reachinbox. All rights reserved.
+        © 2024-26 Reachinbox. All rights reserved.
       </footer>
     </div>
   );
